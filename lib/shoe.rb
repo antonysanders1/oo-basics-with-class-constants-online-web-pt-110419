@@ -11,6 +11,7 @@ class Shoe
       if brand == "Nike" && ("Nike" == 2) && ("Nike" == 3)
         brands.pop
         BRANDS << brands
+      end
   end
     
   
