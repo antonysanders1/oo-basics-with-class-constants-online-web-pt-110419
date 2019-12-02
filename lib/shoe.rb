@@ -9,9 +9,9 @@ class Shoe
  
 #   brand.each do |b|
 #      if b == "Nike"
-        brand.pop
+#        brand.pop
         BRANDS << brand
-      end
+#      end
   end
     
   
