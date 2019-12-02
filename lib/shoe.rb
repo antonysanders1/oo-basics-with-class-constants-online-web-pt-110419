@@ -7,7 +7,7 @@ class Shoe
   def initialize(brands)
     @brand = brands
  
-    brands.detect do |brand|
+    brands.each do |brand|
       if brand == "Nike" && ("Nike" == 2) && ("Nike" == 3)
         brands.pop
         BRANDS << brands
