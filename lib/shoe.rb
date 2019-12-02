@@ -7,7 +7,8 @@ class Shoe
   def initialize(brands)
     @brand = brands
     # I'm thinking I should iterate through all brands 1st, delete any duplicate brand i.e "Nike", then push the remaining brands to the Constant Array
-    brands.each |do|
+    brands.each do |brand|
+      
   
     BRANDS << brands
     
