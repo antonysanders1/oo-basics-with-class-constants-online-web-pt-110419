@@ -4,13 +4,13 @@ class Shoe
   
   BRANDS = []
 
-  def initialize(brands)
-    @brand = brands
+  def initialize(brand)
+    @brand = brand
  
-    brands.each do |brand|
-      if brand == "Nike" && ("Nike" == 2) && ("Nike" == 3)
-        brands.pop
-        BRANDS << brands
+    brand.each do |b|
+      if b == "Nike"
+        brand.pop
+        BRANDS << brand
       end
   end
     
