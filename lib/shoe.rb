@@ -6,9 +6,9 @@ class Shoe
 
   def initialize(brands)
     @brand = brands
-    # I'm thinking I should iterate through all brands 1st, delete any duplicate brand i.e "Nike", then push the remaining brands to the Constant Array
-    brands.each do |brand|
-      
+ 
+    brands.detect do |brand|
+      if brand == "Nike"
   
     BRANDS << brands
     
@@ -24,3 +24,6 @@ class Shoe
   end
 
 end
+
+
+   # I'm thinking I should iterate through all brands 1st, delete any duplicate brand i.e "Nike", then push the remaining brands to the Constant Array
