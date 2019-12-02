@@ -7,6 +7,11 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
+    
+    if BRANDS.size == 4
+      BRANDS.pop
+    end
+    
   end
   
 
